@@ -1,0 +1,9 @@
+/* tipo de selector{
+propiedad1 :valo;
+propiedad2 :valor;
+} */
+/*estilos general * */
+* {
+    border: 1px solid red;
+    margin: 10px;
+}
