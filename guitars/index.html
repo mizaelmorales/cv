@@ -5,32 +5,40 @@
             Invi Guitars
         </title>
         <meta charset="utf-8"/>
-        
+        <link rel="stylesheet" href="css/estilo.css" >
+       <!--estilos con etiqueta <style>
+        body {
+            background: blue;
+        }
+        </style> -->
     </head>
     <body>
-        <header>   <!-- logotipo -->
-            <figure><!-- logo -->
-                <img id="crazy" src="/guitars/images/invie.png" width ="186" height="60" alt="logotipo" style="background :red" />
+        <header id="header" >   <!-- logotipo -->
+            <figure><!-- logo --><!--style="background :red" estilos como atributos--> 
+                <img id="crazy" src="/guitars/images/invie.png" width ="186" height="60" alt="logotipo" />
             </figure>
             <nav>
                 <ul>
                     <li>
-                        <a>home</a>
+                        <a href="index.html" >Home</a>
                     </li>
                     <li>
-                        <a>precios</a>
+                        <a href="#guitarras">Guitarras</a>
+                    </li>
+                    <li>
+                        <a href="precios.html">Precios</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <section><!-- Portada -->
-            <h1>guitars invi</h1><!-- titulo  -->
+        <section id="portada" ><!-- Portada -->
+            <h1>Guitars Invi</h1><!-- titulo  -->
             <h3>Se la estrella de rock que quieras</h3>
             <button>Ver Mas</button>
             <!-- descripcion  -->
             <!-- boton -->
         </section>
-        <section>
+        <section id="guitarras" >
             <!-- guitarras -->
             <h2>Nuestras guitarras</h2>
             <article>
@@ -49,7 +57,6 @@
                     <li>Madera Pura</li>
                 </ol>
             </article>
-            
         </section>
     </body>
 </html>
