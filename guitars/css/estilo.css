@@ -1,0 +1,49 @@
+/* 
+Selectores
+tipo de selector{
+    propiedad : valor;
+    propiedad2 : valor;
+
+}
+
+Selector univarsal *
+*/
+
+* {
+    border: 1px solid red;
+    margin: 10px;
+}
+/* selector de etiqueta*/
+header {
+    background: blue;
+}
+section{
+    background: paleturquoise;
+}
+
+/* selector descendente*/
+
+article h3{
+    color: green;
+}
+
+/*selector de clase*/
+
+.title-a{
+    background: fuchsia;
+}
+
+.title-b {
+    background: darkviolet;
+}
+
+/* selector id */
+
+#guitarras {
+    border: 3px SOLID BLACK;
+}
+
+#portada {
+    border: 3px SOLID orange;
+}
+
