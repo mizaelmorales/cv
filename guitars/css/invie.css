@@ -1,9 +1,28 @@
-/* tipo de selector{
-propiedad1 :valo;
-propiedad2 :valor;
-} */
-/*estilos general * */
-* {
-    border: 1px solid red;
-    margin: 10px;
+.titulo {
+    font-size: 70px;
+}
+
+.title-a{
+    font-size: 24px;
+}
+
+.title-b{
+    font-size: 50px;
+}
+
+.guitarras h2{
+    font-size: 35 px;
+}
+
+.portada {
+    background-image: url('/guitars/images/background.png');
+    color: white ;
+}
+
+.guitarras {
+    color: #1F313C;
+}
+
+.menu {
+    font-size: 24px;
 }
