@@ -1,6 +1,27 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Allerta', sans-serif; 
 */
+*{
+    /*width: tamaño;
+    height: tamaño;
+    manesillas de relog
+    padding: 10px 13px 5px 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    */
+    padding: 10px ;
+    /*margin: 10px 13px 5px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    */
+    margin: 10px;
+    border: 2px solid red;
+   
+}
 body{
     font-family: 'Allerta', sans-serif;   
 }
