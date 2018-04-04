@@ -1,9 +1,17 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Allerta', sans-serif; 
+*/
+body{
+    font-family: 'Allerta', sans-serif;   
+}
 .titulo {
     font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title-a{
     font-size: 24px;
+    
 }
 
 .title-b{
@@ -12,6 +20,7 @@
 
 .guitarras h2{
     font-size: 35 px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .portada {
@@ -25,4 +34,13 @@
 
 .menu {
     font-size: 24px;
+    display: inline-block;
+}
+
+.menu li{
+    display: inline-block;
+}
+.logotipo {
+    display: inline-block;
+    /*permite ya usar propiedades de los bloques  padding,border,margin*/
 }
