@@ -1,8 +1,8 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Allerta', sans-serif; 
 */
-*{
-    /*width: tamaño;
+/* *{
+    width: tamaño;
     height: tamaño;
     manesillas de relog
     padding: 10px 13px 5px 15px;
@@ -10,34 +10,39 @@ font-family: 'Allerta', sans-serif;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-    */
+   
     padding: 10px ;
-    /*margin: 10px 13px 5px 15px;
+    margin: 10px 13px 5px 15px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
-    */
+    
     margin: 10px;
     border: 2px solid red;
    
-}
+} */
 body{
     font-family: 'Allerta', sans-serif;   
+    margin: 0;
 }
 .titulo {
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    margin-top: 70px;
 }
 
 .title-a{
     font-size: 24px;
-    
+    margin-top: 0;
 }
 
 .title-b{
     font-size: 50px;
+    margin-bottom: 20px;
 }
+
 
 .guitarras h2{
     font-size: 35 px;
@@ -47,10 +52,18 @@ body{
 .portada {
     background-image: url('/guitars/images/background.png');
     color: white ;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
 }
 
+.portada button{
+    margin-bottom: 70px;
+}
 .guitarras {
     color: #1F313C;
+    width: 800px;
+    margin: auto;
 }
 
 .menu {
@@ -60,8 +73,13 @@ body{
 
 .menu li{
     display: inline-block;
+    margin-left: 30px;
 }
 .logotipo {
     display: inline-block;
     /*permite ya usar propiedades de los bloques  padding,border,margin*/
+}
+.header {
+    width: 800px;
+    margin: auto;
 }
