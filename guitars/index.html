@@ -16,7 +16,7 @@
         </style> -->
     </head>
     <body>
-        <header id="header" class="header" >   <!-- logotipo -->
+        <header id="header" class="header contenedor" >   <!-- logotipo -->
             <figure class="logotipo"><!-- logo --><!--style="background :red;" estilos como atributos--> 
                 <img id="crazy" src="/guitars/images/invie.png" width ="186" height="60" alt="logotipo" />
             </figure>
@@ -35,30 +35,37 @@
             </nav>
         </header>
         <section id="portada" class="portada"><!-- Portada -->
-            <h1 class="titulo">Guitars Invi</h1><!-- titulo  -->
-            <h3 class="title-a">Se la estrella de rock que quieras</h3>
-            <button>Ver Mas</button>
+            <div class="contenedor">
+                <h1 class="titulo">Guitars Invi</h1><!-- titulo  -->
+                <h3 class="title-a">Se la estrella de rock que quieras</h3>
+                <button>Ver Mas</button>
+            </div>
             <!-- descripcion  -->
             <!-- boton -->
         </section>
-        <section id="guitarras" class="guitarras" >
+        <section id="guitarras" class="guitarras contenedor" >
             <!-- guitarras -->
             <h2>Nuestras guitarras</h2>
-            <article class="guitarra">
-                <img src="/guitars/images/invie-acustica.png"width ="200" alt="invi acustica"/>
-                <h3 class="title-b">Invi Acustica</h3>
-                <ol>
-                    <li>Estilo de vida</li>
-                    <li>Madera Pura</li>
-                </ol>
+            <article class="guitarra-a">
+                <img class="right" src="/guitars/images/invie-acustica.png"width ="320" alt="invi acustica"/>
+                <div class="contenedor-guitarra-a" >
+                    <h3 class="title-b">Invi Acustica</h3>
+                    <ol>
+                        <li>Estilo de vida</li>
+                        <li>Madera Pura</li>
+                    </ol>
+                    
+                </div>
             </article>
-            <article>
-                <img src="/guitars/images/invie-classic.png"width ="200"  alt="clasic"/>
-                <h3 class="title-b" >Invi Clasic </h3>
-                <ol>
-                    <li>Estilo  de vida</li>
-                    <li>Madera Pura</li>
-                </ol>
+            <article class="guitarra-b">
+                <img class="left" src="/guitars/images/invie-classic.png"width ="350"  alt="clasic"/>
+                <div class="contenedor-guitarra-b" >
+                    <h3 class="title-b" >Invi Clasic </h3>
+                    <ol>
+                        <li>Estilo  de vida</li>
+                        <li>Madera Pura</li>
+                    </ol>
+                </div> 
             </article>
         </section>
     </body>
