@@ -22,7 +22,8 @@ font-family: 'Allerta', sans-serif;
     border: 2px solid red;
    posicion relativa permite manejarse dentro de la caja
    posicion absoluta depende del primer posicion padre q encuentre para determinar su lugar
-
+    posicion fixed establece dentro del naevegador fijo
+    text-decoration permite quitarle el subrayado
 } */
 body {
     font-family: 'Allerta', sans-serif;   
@@ -63,6 +64,7 @@ body {
 }
 .guitarras {
     color: #1F313C;
+   
     
 }
 
@@ -120,6 +122,7 @@ body {
     /* overflow: hidden; */
     border: 1px solid;  
     color: #1F313C;
+    border-radius: 8px;
 }
 .guitarra-b {
     padding: 10px;
@@ -128,8 +131,33 @@ body {
     border: 1px solid;  
     color: #1F313C;
     height: 200px;
+    border-radius: 8px;
 }
 
 .contenedor-guitarra-b {
     margin-left: 370px;
+}
+.button{
+    border-radius: 5px;
+    color: white;
+    background: #fd324e;
+    border: none;
+    padding: 7;
+}
+
+.footer {
+    background: #273b47;
+    margin-top: 105px;
+}
+
+.contacto img {
+    display: block;
+}
+.contacto strong {
+    display: block;
+}
+
+.contacto a {
+    color: white;
+    text-decoration: none;
 }
