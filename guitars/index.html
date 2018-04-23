@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
         
     <head>
@@ -16,29 +15,31 @@
         </style> -->
     </head>
     <body>
-        <header id="header" class="header contenedor" >   <!-- logotipo -->
-            <figure class="logotipo"><!-- logo --><!--style="background :red;" estilos como atributos--> 
-                <img id="crazy" src="/guitars/images/invie.png" width ="186" height="60" alt="logotipo" />
-            </figure>
-            <nav class="menu">
-                <ul>
-                    <li>
-                        <a href="index.html" >Home</a>
-                    </li>
-                    <li>
-                        <a href="#guitarras">Guitarras</a>
-                    </li>
-                    <li>
-                        <a href="precios.html">Precios</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section id="portada" class="portada"><!-- Portada -->
+
+        <section id="portada" class="portada">
+                <header id="header" class="header contenedor" >   <!-- logotipo -->
+                    <figure class="logotipo"><!-- logo --><!--style="background :red;" estilos como atributos--> 
+                        <img id="crazy" src="/guitars/images/invie.png" width ="186" height="60" alt="logotipo" />
+                    </figure>
+                    <nav class="menu">
+                        <ul>
+                            <li>
+                                <a href="index.html" >Home</a>
+                            </li>
+                            <li>
+                                <a href="#guitarras">Guitarras</a>
+                            </li>
+                            <li>
+                                <a href="precios.html">Precios</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <!-- Portada -->
             <div class="contenedor">
-                <h1 class="titulo">Guitars Invi</h1><!-- titulo  -->
+                <h1 class="titulo">Guitars <span>Invie</span>sibles</h1><!-- titulo  -->
                 <h3 class="title-a">Se la estrella de rock que quieras</h3>
-                <button class="button">Conoce Mas</button>
+                <a class="button" href="#guitarras">Conoce Mas</a>
             </div>
             <!-- descripcion  -->
             <!-- boton -->
@@ -54,7 +55,6 @@
                         <li>Estilo de vida</li>
                         <li>Madera Pura</li>
                     </ol>
-                    
                 </div>
             </article>
             <article class="guitarra-b">
@@ -76,42 +76,44 @@
                     <a href="tel:+58"><strong>Telefono</strong> <span>4148965454</span></a>
                     <a href="mailto:Contacto@invie.com"><strong>Email</strong> <span>Contacto@invie.com</span></a>
                 </div>
-
                 <!-- Value=colocarle contenido por defecto
                     Placeholder=recibe el valor pero difuminado explica para que es la caja
                     for= permite en el label crear un enlace que direcciona al input text deseado mediante id
                 -->
                 <form class="formulario">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" required id="nombre" name="nombre"/>
-                    <label for="email">E-mail</label>
-                    <input type="email" required id="email" name="email"/>
-                    <div class="sexo">
-                        <label for="mujer">
-                            <input type="radio" id="mujer" name="sexo" value="mujer"/> Mujer
-                        </label>
-                        <label for="hombre">
-                            <input type="radio" id="hombre" name="sexo" value="hombre"/> Hombre
-                        </label>
+                    <div class="columna1">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" required id="nombre" name="nombre"/>
+                        <label for="email">E-mail</label>
+                        <input type="email" required id="email" name="email"/>
+                        <div class="sexo">
+                            <label for="mujer">
+                                <input type="radio" checked id="mujer" name="sexo" value="mujer"/> Mujer
+                            </label>
+                            <label for="hombre">
+                                <input type="radio" id="hombre" name="sexo" value="hombre"/> Hombre
+                            </label>
+                        </div>
+                  
+                        <div class="intereses">
+                            <label for="cotizacion">
+                                <input type="checkbox" checked id="cotizacion" value="cotizacion" name="intereses" />Cotizacion
+                            </label>
+                            <label for="reclamos">
+                                <input type="checkbox" id="reclamos" value="reclamos" name="intereses" />Reclamos
+                            </label>
+                            <label for="comentarios">
+                                <input type="checkbox" id="comentarios" value="comentarios" name="intereses" />Comentarios
+                            </label>
+                            <label for="otros">
+                                <input type="checkbox" id="otros" value="otros" name="intereses" />Otros
+                            </label>
+                        </div>  
                     </div>
-                <div class="intereses">
-                    <label for="cotizacion">
-                        <input type="checkbox" id="cotizacion" value="cotizacion" name="intereses" />Cotizacion
-                    </label>
-                    <label for="reclamos">
-                        <input type="checkbox" id="reclamos" value="reclamos" name="intereses" />Reclamos
-                    </label>
-                    <label for="comentarios">
-                        <input type="checkbox" id="comentarios" value="comentarios" name="intereses" />Comentarios
-                    </label>
-                    <label for="otros">
-                        <input type="checkbox" id="otros" value="otros" name="intereses" />Otros
-                    </label>
-                    <div>
+                    <div class="columna2">
                         <label for="comentario">Comentarios</label>
                         <textarea name="comentario" id="comentario" cols="30" rows="7" ></textarea>
                         <input class="button" type="submit" value="Enviar"/>
-                    </div>
                     </div>
                 </form>
             </div>
