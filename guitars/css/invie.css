@@ -54,6 +54,7 @@ font-family: 'Allerta', sans-serif;
                 :tanslate3d(X,Y,Z PROFUNDIDAD)para el eje Z body debe tener perspective:
               cursor: pointer;
     background: linear-gradient(to left,#fe344e,#ff7250);
+    background-size: cover; hace q la imagen cubra todo
             } */
 
 body {
@@ -98,6 +99,12 @@ body {
     padding: 20px;
     height: 500px;
    
+}
+
+.background {
+    background-image: url('/guitars/images/background.png');
+    background-size: cover;
+
 }
 
 .portada button {
@@ -275,6 +282,7 @@ body {
 
 table {
     width: 100%;
+    margin: 40px 0;
 }
 
 input, textarea {
